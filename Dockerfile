@@ -12,6 +12,3 @@ RUN addgroup --system --gid 415311 docker-group && \
 
 RUN export HOME=/root
 RUN export DEBIAN_FRONTEND=noninteractive
-
-ENV DOCKER_APP_NAME simple_name
-ENV DOCKER_APP_DESC full description for the app
