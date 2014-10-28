@@ -12,3 +12,6 @@ RUN addgroup --system --gid 415311 docker-group && \
 
 RUN export HOME=/root
 RUN export DEBIAN_FRONTEND=noninteractive
+
+ADD loggly-setup.sh /loggly-setup.sh
+RUN /loggly-setup.sh
